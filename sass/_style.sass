@@ -598,7 +598,8 @@ li
 	width: 100%
 	background: #f7f7f7
 	text-align: right
-	td
+	span
+		display: inline-block
 		color: #333 !important
 		color: rgba(33,33,33,0.99) !important
 		padding: 18px 12px 0 12px
@@ -619,27 +620,27 @@ li
 				// border-bottom: 1px dotted #333
 				// width: 185px
 				// z-index: 1
-	td:last-child
+	span:last-child
 		width: 187px
-	tr:last-child
-		td
+	div:last-child
+		span
 			padding: 18px 12px
 	&.style2
 		// display: inline-block
-		td
+		span
 			.az-dotted
 				// position: relative
 				span
 					line-height: 23px
 				&::before
 					// bottom: 5px
-		td:first-child
+		span:first-child
 			font-family: "RobotoCondensedBold", sans-serif
 			color: #333
 			font-size: 14px
 			line-height: 20px
 			vertical-align: bottom
-		td:last-child
+		span:last-child
 			font-family: "RobotoCondensedLight", sans-serif
 			color: #333
 			font-size: 18px
